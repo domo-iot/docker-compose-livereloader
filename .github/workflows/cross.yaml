@@ -33,4 +33,4 @@ jobs:
       with:
         push: true
         tags: ghcr.io/${{ github.repository_owner }}/domo-reloader-arm64v8:latest
-        file: docker/Dockerfile-OpenWrt
+        file: Dockerfile-OpenWrt
